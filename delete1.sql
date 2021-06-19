@@ -1,3 +1,3 @@
-DELETE FROM books_subjects WHERE subject IN (SELECT subjects.id FROM subjects WHERE subjects.name = "History");
+DELETE FROM books_subjects WHERE subject = 9;
 
 DELETE FROM subjects WHERE name = "History";
